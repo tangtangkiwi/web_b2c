@@ -1,0 +1,124 @@
+.title .main .list .on a{
+	color: #ff0000;
+}
+.center{
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.center img{
+	margin: 150px auto 0;
+}
+.center h2{
+	text-align: center;
+	text-indent: 14px;
+	line-height: 48px;
+	color:#515151;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+.center form{
+	width:384px;
+	height: auto;
+	overflow: hidden;
+	margin: 48px 0 0 410px;
+}
+.center form #user{
+	width: 310px;
+	height: 42px;
+	outline: none;
+	background: url(../img/user.png) no-repeat 12px center;
+	padding: 0 36px;
+	border: 1px solid #afafaf;
+}
+.center form #password{
+	width: 310px;
+	height: 42px;
+	outline: none;
+	background: url(../img/password.png) no-repeat 12px center;
+	padding: 0 36px;
+	border: 1px solid #afafaf;
+	margin-top: 20px;
+}
+.center form #txt{
+	width:112px;
+	height: 42px;
+	border: 1px solid #afafaf;
+	padding: 0 12px;
+	outline: none;
+	margin-top: 20px;
+	float: left;
+}
+.center form img{
+	float: left;
+	margin: 19px 0 0 18px;
+}
+.center form .password{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin-top: 38px;
+}
+.center form #btn{
+	width: 18px;
+	height: 18px;
+	border: 1px solid #525252;
+	background: white;
+	border-radius: 2px;
+	float: left;
+}
+.center form span{
+	display: block;
+	float: left;
+	color: #515151;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height:18px ;
+	text-indent: 8px;
+	font-weight: bold;
+}
+.center form .password a{
+	display: block;
+	float: right;
+	color: #515151;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height:18px ;
+	font-weight: bold;
+}
+.center form #sub{
+	width: 214px;
+	height: 64px;
+	float: left;
+	border-radius: 28px;
+	background: #ff008a;
+	outline: none;
+	border: none;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color:white;
+	letter-spacing: 2px;
+	margin: 38px 84px 32px 88px;
+}
+.center form .login{
+	float: left;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color:#515151;
+	text-indent: 99px;
+	font-weight: bold;
+	margin-bottom: 154px;
+}
+.center form .login span{
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color:#ff008a;
+	font-weight: bold;
+	line-height: 24px;
+	margin-right:96px;
+}
