@@ -1,0 +1,153 @@
+@charset "utf-8";
+.content{
+	float: left;
+	width: 1005px;
+}
+.content>div{
+	border: 1px solid #ccc;
+	margin-top: 32px;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+	overflow: hidden;
+}
+.content>div>div{
+	position: relative;
+	background: #e2edcf;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+	overflow: hidden;
+}
+.content>div>ul>li{
+	float: left;
+	position: relative;
+	width: 200px;
+	padding: 25px 0;
+	text-align: center;
+}
+/*头像框*/
+.user{
+	position: absolute;
+	top: 8px;
+	left: 30px;
+	width: 220px;
+	height: 80px;
+}
+.user>div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	behavior: url(css/PIE.htc);	
+	background-image: url(../img/user.png);
+	overflow: hidden;
+}
+.user>div div{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 80px;
+	height: 27px;
+	text-align: center;
+	line-height: 27px;
+	background: #888;
+	opacity: 0.3;
+	filter:alpha(opacity=0);
+}
+.user>div div a{
+	color: #fff;
+	opacity: 1!important;
+	filter:alpha(opacity=100)!important;
+}
+.user>span{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	font-size: 18px;
+	color: #525252;
+}
+.user>a{
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	color: #6b7657;
+}
+
+
+.user+ul{
+	float: right;
+	font-size: 16px;
+	line-height: 115px;
+}
+.user+ul>li{
+	float: left;
+	width: 150px;	
+}
+
+
+
+
+/*上部分导航*/
+.content>div:first-child>ul li:before{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	content: "";
+	width: 1px;
+	height: 20px;
+	background: #ccc;
+}
+.content div:first-child ul li:first-child:before{
+	width: 0!important;
+	height: 0!important;
+}
+.content div:first-child ul li{
+	font-size: 16px;
+}
+.content div:first-child ul li span{
+	color: #cf0606;	
+}
+
+/*换一换推荐*/
+.content>div>div h3{
+	font-size: 16px;
+	line-height: 50px;
+	text-indent: 16px;
+}
+.ie8-style{
+	position: absolute;
+	top: 10px;
+	right: 54px;
+	display: block;
+	width: 98px;
+	height: 27px;
+	font-size: 16px;
+	line-height: 27px;
+	text-align: center;
+	color: #6ca40d;
+	background: #fff;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);	
+}
+.content>div>ul>li strong{
+	display: block;
+	line-height: 30px;
+	color: #e44343;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,477 @@
+@charset "utf-8";
+.wrapper,.search-text input{
+	background: #d3effb;
+}
+.header:before{
+	background: #bee0cb;	
+}
+.header-nav>ul>li{
+	color: #dcf4fe;
+}
+/*banner图样式*/
+.swiper-container{
+	position: relative;
+	width: 100%;
+	min-width: 1200px;
+	height: 600px;
+	overflow: hidden;
+	background: #06f;
+}
+.swiper-pagination-bullet{
+	width: 40px!important;
+	height: 40px!important;
+	margin: 0 40px!important;
+	background: #565c4d!important;
+	opacity: 0.6!important;
+	border-radius: 20px!important;
+	
+}
+.swiper-pagination-bullet-active{
+	background: #6ca40d!important;
+	opacity: 1!important;
+}
+
+
+/*优惠价样式*/
+.middle>ul{
+	overflow: hidden;
+}
+.middle>ul:first-child{
+	color: #fff;
+}
+.middle>ul:first-child li:first-child{
+		margin: 74px 0 47px 10px;important;	
+}
+.middle>ul:first-child li{
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 141px;
+	margin: 74px 0 47px 210px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+}
+.middle>ul:first-child li div{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	width: 213px;
+	height: 115px;
+	background: #6ca40d;
+}
+.middle>ul:first-child li div:before{
+	position: absolute;
+	z-index: -1;
+	top: 11px;
+	left: -8px;
+	content: "";
+	width: 229px;
+	height: 7px;
+	background: #6ca40d;
+}
+.middle>ul:first-child li div:after{
+	position: absolute;
+	left: -8px;
+	bottom: 11px;
+	z-index: -1;
+	content: "";
+	width: 229px;
+	height: 7px;
+	background: #6ca40d;
+}
+.middle>ul:first-child li div a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.middle>ul:first-child li div a strong{
+	float: left;
+	width: 103px;
+	height: 75px;
+	font-size: 48px;
+	line-height: 78px;
+	text-indent: 20px;
+}
+.middle>ul:first-child li div a strong i{
+	font-size: 24px;
+}
+.middle>ul:first-child li div a em{
+	display: inline-block;
+	width: 110px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 34px;
+}
+.middle>ul:first-child li div a>i{
+	display: inline-block;
+	width: 110px;
+	font-size: 30px;
+	text-align: center;
+}
+.middle>ul:first-child li div a span{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 39px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+.middle>ul:first-child li div a span:before{
+	position: absolute;
+	top: 0;
+	left: 7%;
+	content: "";
+	width: 85%;
+	height: 1px;
+	background: #9ec360;
+}
+
+/*爆款推荐样式*/
+.middle>ul:first-child+div h3{
+	margin-top: 70px;
+	font-size: 36px;
+	text-align: center;
+	color: #6ca40d;
+}
+.middle>ul:first-child+div>p{
+	font-size: 14px;
+	text-align: center;
+	line-height: 28px;
+	color: #8698a0;
+}
+.middle>ul:first-child+div{
+	height: 520px;
+	overflow: hidden;
+	background: url(../img/cake_hot.png);
+}
+.middle>ul:first-child+div ul{
+	margin: 40px 0;
+	overflow: hidden;
+}
+.middle>ul:first-child+div ul li{
+	float: left;
+	width: 380px;
+	height: 300px;
+	margin: 0 10px;
+	text-align: center;
+}
+.middle>ul:first-child+div ul li strong{
+	display: block;
+	font-size: 16px;
+	line-height: 40px;
+	color: #304905;
+}
+.middle>ul:first-child+div ul li img{
+	height: 225px;
+}
+.middle>ul:first-child+div ul li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+/*公共样式*/
+.middle>h3{
+	margin-top: 80px;
+	font-size: 18px;
+	text-align: center;
+	color: #6ca40d;	
+}
+.middle h3+h3{
+	position: relative;
+	margin-top: 0!important;
+	font-size: 36px;
+	line-height: 76px;
+}
+.middle h3+h3:before,.middle h3+h3:after{
+	position: absolute;
+	top: 50%;
+	content: "";
+	height: 1px;
+	width: 430px;
+	background: #a4cd8e;		
+}
+.middle h3+h3:before{
+	left: 0;
+}
+.middle h3+h3:after{
+	right: 0;
+}
+.middle>p{
+	margin-bottom: 62px;
+	font-size: 14px;
+	text-align: center;
+	color: #8698a0;
+}
+.push-goods,.hot-goods{
+	position: relative;
+	border: 17px solid #578805;
+	border-radius: 30px;
+	behavior: url(css/PIE.htc);	
+	background: #fff;
+}
+.new-goods{
+	overflow: hidden;
+}
+
+/*推荐商品样式*/
+.push-goods li>a{
+	display: inline-block;
+}
+.push-goods li{
+	margin: 0 auto;
+	padding: 45px 0;
+	width: 986px;
+	border-top: 1px dashed #006c6f;
+	overflow: hidden;
+}
+.push-goods li:first-child{
+	border-top: 1px dashed transparent!important;
+}
+.push-goods li div{
+	float: right;
+	margin: 0 40px;
+}
+.push-goods li:first-child+li div{
+	float: left;
+}
+.push-goods li img{
+	margin: 0 30px;
+}
+.push-goods li:first-child+li div+img{
+	float: right;
+}
+.push-goods li div>span{
+	position: relative;
+	display: block;
+	width: 210px;
+	padding:  12px 0;
+	border: 1px solid #6ca40d;
+	border-radius: 21px;
+	font-size: 20px;
+	text-align: center;
+	color: #6ca40d;
+	behavior: url(css/PIE.htc);	
+}
+.push-goods li div strong{
+	display: block;
+	font-size: 36px;
+	line-height: 68px;
+	color: #6ca40d;
+}
+.push-goods li div strong+strong{
+	font-size: 21px;
+	color: #707070;
+	line-height: 1;
+	text-indent: 16px;
+}
+.push-goods li div>i{
+	display: block;
+	float: left;
+	position: relative;
+	width: 48px;
+	height: 50px;
+	margin: 17px 8px 30px;
+	padding: 9px 10px;
+	border: 1px solid #6ca40d;
+	font-size: 18.6px;
+	line-height: 23px;
+	text-align: center;
+	color: #6ca40d;
+	border-radius: 35px;
+	behavior: url(css/PIE.htc);	
+}
+.push-goods li div em{
+	display: block;
+	font-size: 56px;
+	color: #d04751;
+	clear: both;
+}
+.push-goods li div em i{
+	font-size: 28px;
+	margin: 0 14px;
+}
+.push-goods li div em a{
+	float: left;
+	position: relative;
+	top: -48px;
+	left: 145px;
+	float: left;
+	display: block;
+	width: 200px;
+	padding:  10px 0;
+	border-radius: 20px;
+	background: #d04751;
+	font-size: 19.8px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	behavior: url(css/PIE.htc);		
+}
+
+/*最新商品样式*/
+.new-goods li,.new-goods-on{
+	position: relative;
+	float: left;
+	margin: 0 0 20px 23px;
+	margin-bottom: 20px;
+	background: #fff;
+	text-align: center;
+	width: 360px;
+	height: 413px;
+	border: 11px solid #578805;
+	border-radius: 26px;
+	behavior: url(css/PIE.htc);
+}
+.new-goods-on{
+	margin: 0 0 20px 0!important;
+}
+.new-goods-ie1,.new-goods-ie2{
+	width: 550px!important;
+	height: 490px!important;
+	border: 13px solid #578805;
+	border-radius: 26px;
+	behavior: url(css/PIE.htc);
+}
+.new-goods-ie1 p,.new-goods-ie2 p{
+	margin-top: 20px;
+}
+.new-goods-ie1{
+	margin:0 20px 0 0!important;
+}
+.new-goods-ie1 p+p:before,.new-goods-ie2 p+p:before{
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	content: "";
+	margin-left: -175px;
+	width: 350px!important;
+	height: 2px;
+	background: #d1dfbd!important;
+}
+.new-goods li p{
+	font-size: 36px;
+	line-height: 50px;
+	color: #578805;
+}
+.new-goods li p+p{
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000;
+}
+.new-goods li em{
+	font-size: 32px;
+	color: #d04751;
+}
+.new-goods li em i{
+	font-size: 15px;
+}
+.new-goods li strong{
+	display: inline-block;
+	position: relative;
+	top: -5px;
+	width: 134px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+	background: #d04751;
+	border-radius: 14px;
+	behavior: url(css/PIE.htc);		
+}
+.new-goods li strong a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+/*热门商品样式*/
+.hot-goods>li{
+	text-align: center;
+}
+/*.hot-goods{
+	margin-bottom: 90px;
+}
+.hot-goods li{
+	position: relative;
+	height: 385px;
+	background-repeat: no-repeat;
+	background-position-x: 50px;
+}
+.hot-goods li:first-child{
+	background-position-y: -60px;
+	background-image: url(../img/hot_goods1.png);
+}
+.hot-goods li:first-child+li{
+	background-image: url(../img/hot_goods2.png);
+}
+.hot-goods li span{
+	position: absolute;
+	font-size: 17px;
+	color: #fff;
+}
+.hot-goods li span+span{
+	font-size: 20px;
+	color: #3a880e;
+}
+.hot-goods li:first-child span{
+	left: 310px;
+	top: 148px;
+}
+.hot-goods li:first-child span+span{
+	left: 226px;
+	top: 203px;
+}
+.hot-goods li+li span{
+	top: 93px;
+	right: 325px;
+}
+.hot-goods li+li span+span{
+	top: 150px;
+	right: 235px;
+}
+.hot-goods li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}*/
+
+
+
+
+.middle{
+	position: relative;
+	overflow:visible;
+}
+
+.bj{
+	position: absolute;
+	top: 0;
+	right: -286px;
+}
+.bj+div{
+	position: absolute;
+	top: 566px;
+	left: -283px;
+}
+.bj+div+div{
+	position: absolute;
+	left: -406px;
+	bottom: 700px;
+	
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,323 @@
+@charset "utf-8";
+.content{
+	float: left;
+	position: relative;
+	width: 1005px;
+	margin-top: 32px;
+	overflow: hidden;
+}
+.content:before{
+	position: absolute;
+	top: 27px;
+	left: 0;
+	content: "";
+	width: 1005px;
+	height: 2px;
+	background: #ccc;
+}
+.content>h3{
+	position: relative;
+	font-size: 18px;
+	color: #6ca40d;
+}
+.content>h3:after{
+	position: absolute;
+	top: 27px;
+	left: 0;
+	content: "";
+	width: 80px;
+	height: 2px;
+	background: #6ca40d;
+}
+
+/*表单样式*/
+.content form{
+	width: 993px;
+	margin: 45px 0 55px 12px;
+}
+.content form>div{
+	position: relative;
+	margin-bottom: 22px;
+	clear: both;
+
+}
+/*所在地区*/
+.content form>div:first-child{
+	height: 25px;
+}
+.content form>div:first-child div{
+	float: left;
+	line-height: 25px;
+}
+.country{
+	cursor: pointer;
+	position: relative;
+	width: 95px;
+	height: 23px;
+	border: 1px solid #000;
+	margin: 0 15px;
+	text-align: center;
+	line-height: 23px!important;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+}
+.form-group i{
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 85px;
+}
+
+/*三级城市联动*/
+#distpicker{
+	position: relative;
+	display: inline-block;
+	width: 243px;
+	height: 23px;
+	border: 1px solid #000;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+	background: #fff;
+}
+.form-group{
+	position: absolute;
+	top: 0;
+	top: 20px;
+}
+.form-group>div{
+	position: relative;
+	top: -20px;
+	left: 10px;
+}
+#city-picker3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 20px;
+	background: #fff;
+}
+.city-picker-span{
+	line-height: 25px!important;
+}
+
+.form-group i{
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+
+/*详细地址*/
+.address{
+	overflow: hidden;
+}
+.address span{
+	float: left;
+}
+.address div{
+	float: left;
+	position: relative;
+	left: 15px;
+	width: 355px;
+	height: 62px;
+	border:1px solid #000;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+	overflow: hidden;
+}
+.address div textarea{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 335px;
+	height: 52px;
+	font-size: 12px;
+	line-height: 22px;
+	padding: 0 10px;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+}
+
+
+/*邮政姓名*/
+.name{
+	position: relative;
+	top: 0;
+	left: -12px;
+	height: 25px;
+	overflow: hidden;
+}
+.name div,.name span{
+	display: block;
+	float: left;
+	position: relative;
+	width: 80px;
+	overflow: hidden;
+}
+.name-right span{
+	left: 12px;
+}
+.name>div{
+	position: absolute;
+	top: 0;
+	left: 87px;
+	width: 243px;
+	height: 23px;
+	border: 1px solid #000;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+}
+.name>div input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 225px;
+	height: 22px;
+	margin: 0 9px;
+	line-height: 22px;
+	font-size: 12px;
+	border-radius: 10px;
+	behavior: url(css/PIE.htc);	
+}
+
+/*手机号码*/
+.tel{
+	position: relative;
+	overflow: hidden;
+}
+.tel span,.tel strong,.tel div{
+	float: left;
+}
+.tel span{
+	margin-right: 13px;
+}
+.tel strong{
+	position: relative;
+	width: 112px;
+	height: 23px;
+	margin-right: 8px;
+	line-height: 23px;
+	text-align: center;
+	border: 1px solid #000;	
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+}
+.tel div{
+	position: relative;
+	width: 234px;
+	height: 23px;
+	border: 1px solid #000;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+	overflow: hidden;
+}
+.tel div input{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 220px;
+	height: 22px;
+	margin: 0 10px;
+	font-size: 12px;
+	line-height: 22px;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+}
+
+/*跳转按钮*/
+.content form>span,.content form>a{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	width: 81px;
+	height: 26px;
+	margin-top: 26px;
+	margin-right: 22px;
+	line-height: 26px;
+	text-align: center;
+	color: #fff;
+	border-radius: 8px;
+	background: #487202;
+	behavior: url(css/PIE.htc);	
+}
+
+/*地址详情样式*/
+.content>ul{
+	width: 1005px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #ccc;
+}
+.content>ul>li{
+	overflow: hidden;	
+}
+.list{
+	overflow: hidden;
+}
+.list>li{
+	float: left;
+}
+.list-title{
+	height: 33px;
+	font-size: 16px;
+	background: #ddeac7;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);		
+}
+.list-title li{
+	line-height: 33px!important;
+}
+.list li:first-child{
+	padding-left: 9px;
+}
+/*列表样式*/
+.list li{
+	line-height: 40px;
+	text-align: left;
+}
+.list li:first-child{
+	width: 135px;
+	font-size: 16px;
+}
+.list li:first-child+li{
+	width: 190px;
+}
+.list li:first-child+li+li{
+	width: 290px;
+}
+.list li:first-child+li+li+li{
+	width: 130px;
+}
+.list li:first-child+li+li+li+li{
+	width: 168px;
+}
+.list-title li:first-child+li+li+li+li+li{
+	text-indent: 10px;
+	color:#000!important;
+}
+.list li:first-child+li+li+li+li+li{
+	color: #79ab30;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

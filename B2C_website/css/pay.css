@@ -1,0 +1,324 @@
+@charset "utf-8";
+/*顶部样式*/
+.middle{
+	overflow: hidden;
+}
+.middle-header{
+	position: relative;
+	margin: 0 auto;
+	width: 690px;
+	height: 110px;
+}
+.middle-header:before{
+	position: absolute;
+	top: 45px;
+	left: 0;
+	content: '';
+	width: 690px;
+	height: 11px;
+	background: #c9c9c9;
+	border-radius: 3px;
+}
+.middle-header>div{
+	position: relative;
+	float: left;
+	margin-top: 45px;
+	width: 230px;
+	font-size: 18px;
+	text-align: center;
+}
+.middle-header>div span{
+	position: absolute;
+	top: -10px;
+	left: 97px;
+	width: 34px;
+	height: 34px;
+	border-radius: 17px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background: #c9c9c9;
+	behavior: url(css/PIE.htc);	
+	overflow: hidden;
+}
+.middle-header>div em{
+	display: inline-block;
+	margin-top: 35px;
+}
+.icon-gouxuan{
+	position: absolute;
+	background: #6ca40d!important;	
+}
+.pitch-on:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 230px;
+	height: 11px;
+	background: #6ca40d;
+	border-radius: 3px;
+	behavior: url(css/PIE.htc);		
+}
+
+/*生成的订单*/
+.middle-header+div{
+	position: relative;
+	height: 120px;
+	padding-top: 90px;
+	padding-left: 170px;
+}
+.middle-header+div>div:first-child,.middle-footer>div:first-child{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+	font-size: 18px;
+	line-height: 60px;
+	border-bottom: 3px solid #c9c9c9;
+}
+.middle-header+div>img{
+	position: absolute;
+	top: 82px;
+	left: 15px;
+}
+.middle-header+div>div{
+	float: left;
+	line-height: 25px;
+}
+.middle-header+div>img+div{
+	margin-right: 85px;
+}
+
+/*支付方式*/
+.middle-footer{
+	position: relative;
+	height: 300px;
+	padding-top: 80px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #c9c9c9;
+}
+.bank{
+	position: relative;
+	width: 100%;
+	height: 33px;
+	background: #e2edcf;
+	border-radius: 8px;
+	line-height: 33px;
+	behavior: url(css/PIE.htc);	
+}
+.icon-circleyuanquan{
+	margin: 0 60px 0 105px;
+}
+.icon-zhongguoyouzhengchuxuyinhang{
+	margin-right: 20px;
+}
+.icon-zhongguoyouzhengchuxuyinhang+span{
+	margin-right: 130px;
+}
+.icon-zhongguoyouzhengchuxuyinhang+span+span{
+	margin-right: 105px;
+}
+.icon-zhongguoyouzhengchuxuyinhang+span+span+span{
+	margin-right: 90px;
+}
+.icon-zhongguoyouzhengchuxuyinhang+span+span+span+span{
+	margin-right: 180px;
+}
+.icon-zhongguoyouzhengchuxuyinhang+span+span+span+span+span>em{
+	color: #e50000;
+}
+
+.bank+div{
+	position: relative;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	margin: 16px 0;
+}
+.bank+div>a{
+	position: relative;
+	display: inline-block;
+	width: 170px;
+	height: 36px;
+	background: #6ca40d;
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);	
+}
+.icon-gou{
+	width: 20px;
+	height: 20px;
+	margin-right: 15px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 0.9em;
+	color: #fff;
+	background: #6ca40d;
+	border-radius: 10px;
+	behavior: url(css/PIE.htc);
+}
+
+.password{
+	overflow: hidden;
+}
+.password>p:first-child{
+	line-height: 40px;
+}
+.password>form{
+	overflow: hidden;
+}
+.password>a{
+	color: #8e8e8e;
+}
+.password>form+p{
+	line-height: 25px;
+	color: #8e8e8e;
+}
+.affirm{
+	cursor: pointer;
+	position: relative;
+	top: 25px;
+	width: 170px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	background: #6ca40d;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);
+}
+.affirm>a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+/*密码样式框*/
+.password{
+	position: relative;
+}
+.password form{
+	position: relative;
+	width: 125px;
+	height: 21px;
+	padding: 0 8px;
+	border: 1px solid #7f7f7f;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+}
+.password form>div{
+	position: relative;
+	float: left;
+	width: 19px;
+	height: 21px;
+	border-right: 1px solid #7f7f7f;
+	overflow: hidden;
+}
+.password >a{
+	position: absolute;
+	top: 46px;
+	left: 160px;
+}
+.password form>div:first-child{
+	border-left: 1px solid #7f7f7f;
+}
+.password form>div input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 19px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+}
+.password>p{
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

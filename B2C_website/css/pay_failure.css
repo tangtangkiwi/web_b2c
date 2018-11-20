@@ -1,0 +1,64 @@
+@charset "utf-8";
+.middle{
+	height: 220px;
+	margin: 60px auto;
+	padding-top: 40px;
+	background: #cdf0cd;
+	border-radius: 16px;
+	text-align: center;
+	behavior: url(css/PIE.htc);	
+}
+.middle div{
+	display: inline-block;
+	overflow: hidden;
+}
+.middle i{
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	margin-right: 44px;
+	border-radius: 55px;
+	font-size: 55px;
+	text-align: center;
+	line-height: 110px;
+	color: #cdf0cd;
+	background: #6ca40d;
+	behavior: url(css/PIE.htc);	
+}
+.middle div p{
+	font-size: 20px;
+	color: #204320;
+	margin-bottom: 25px;
+}
+.middle div p+p{
+	font-size: 14px;
+	color: #7a7a7a;
+	text-indent: -12px;
+}
+.middle div>span{
+	position: relative;
+	display: inline-block;
+	width: 101px;
+	height: 34px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background: #6ca40d;
+	border-radius: 16px;
+	behavior: url(css/PIE.htc);	
+}
+.middle span a{
+	float: left;
+	width: 100%;
+	width: 100%;
+}
+.middle>a{
+	position: absolute;
+	right: 400px;
+	bottom: 40px;
+	color: #6ca40d;
+	font-size: 14px;
+}

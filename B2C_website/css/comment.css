@@ -1,0 +1,196 @@
+@charset "utf-8";
+.content{
+	float: left;
+	position: relative;
+	width: 1005px;
+	margin-top: 32px;
+	overflow: hidden;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #ccc;
+}
+.content:before{
+	position: absolute;
+	top: 27px;
+	left: 0;
+	content: "";
+	width: 1005px;
+	height: 2px;
+	background: #ccc;
+}
+.content>h3{
+	position: relative;
+	font-size: 18px;
+	color: #6ca40d;
+}
+.content>h3:after{
+	position: absolute;
+	top: 27px;
+	left: 0;
+	content: "";
+	width: 80px;
+	height: 2px;
+	background: #6ca40d;
+}
+
+.content form{
+	float: left;
+	overflow: hidden;
+}
+
+/*评价商品*/
+.goods-show,.order,.comment{
+	float: left;
+	margin-top: 50px;
+	color: #565656;
+	overflow: hidden;
+}
+.order,.comment{
+	height: 235px;
+	padding-top: 40px;
+}
+.goods-show{
+	width: 300px;
+	height: 275px;
+}
+.goods-show p{
+	width: 195px;
+	line-height: 18px;
+	margin-left: 10px;
+}
+.goods-show strong{
+	font-size: 18px;
+	line-height: 20px;
+	margin-left: 10px;
+	color: #cc0917;
+}
+.goods-show i{
+	font-size: 12px!important;
+}
+
+/*打星星*/
+.order{
+	width: 250px;
+}
+.order>div:first-child{
+	margin-bottom: 38px;
+}
+.order ul li{
+	height: 40px;
+	line-height: 40px;
+
+}
+.order ul li a{
+	font-size: 16px;
+	color: #d81e06;
+}
+
+.icon-xingxing{
+	font-size: 16px;
+	color: #d81e06;
+}
+
+/*评价表单*/
+.comment{
+	position: relative;
+	padding-left: 35px;
+}
+.comment>div:first-child{
+	position: relative;
+	top: 0;
+	left: -35px;
+	margin-bottom: 38px;
+}
+.comment .comment-text{
+	position: relative;
+	width: 328px;
+	height: 68px;
+	margin: 8px 0;
+	border: 1px solid #000;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+	overflow: hidden;
+}
+
+.comment-text textarea{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 306px;
+	height: 66px;
+	margin: 0 10px;
+	font-size: 12px;
+	line-height: 30px;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+}
+.comment-text+div>span{
+	display: inline-block;
+	position: relative;
+	width: 26px;
+	height: 26px;
+	overflow: hidden;
+}
+.comment-text+div input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 26px;
+	height: 26px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	z-index: 10;
+}
+.comment-text+div i{
+	position: absolute;
+	left: 35px;
+	top: 190px;
+	font-size: 20px;
+}
+.comment-text+div em{
+	position: relative;
+	left: 10px;
+	top: -9px;
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+}
+.comment-text+div em span{
+	color: #6ca40d;
+	margin: 0 3px;
+}
+.comment-submit{
+	position: relative;
+	width: 116px;
+	height: 37px;
+	font-size: 16px;
+	line-height: 37px;
+	text-align: center;
+	color: #fff;
+	background: #6ca40d;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);	
+}
+.comment-submit input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 116px;
+	height: 37px;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

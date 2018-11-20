@@ -1,0 +1,467 @@
+@charset "utf-8";
+/*顶部样式*/
+.middle{
+	overflow: hidden;
+}
+.middle-header{
+	position: relative;
+	margin: 0 auto;
+	width: 690px;
+	height: 110px;
+}
+.middle-header:before{
+	position: absolute;
+	top: 45px;
+	left: 0;
+	content: '';
+	width: 690px;
+	height: 11px;
+	background: #c9c9c9;
+	border-radius: 3px;
+}
+.middle-header>div{
+	position: relative;
+	float: left;
+	margin-top: 45px;
+	width: 230px;
+	font-size: 18px;
+	text-align: center;
+}
+.middle-header>div span{
+	position: absolute;
+	top: -10px;
+	left: 97px;
+	width: 34px;
+	height: 34px;
+	border-radius: 17px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	background: #c9c9c9;
+	behavior: url(css/PIE.htc);	
+	overflow: hidden;
+}
+.middle-header>div em{
+	display: inline-block;
+	margin-top: 35px;
+}
+.icon-gouxuan{
+	position: absolute;
+	background: #6ca40d!important;	
+}
+.pitch-on:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 230px;
+	height: 11px;
+	background: #6ca40d;
+	border-radius: 3px;
+	behavior: url(css/PIE.htc);		
+}
+
+/*地址样式*/
+.address{
+	position: relative;
+	padding-top: 60px;
+}
+.address>ul{
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+.address:before{
+	position: absolute;
+	left: 0;
+	top: 55px;
+	content: '';
+	width: 1200px;
+	height: 3px;
+	background: #c9c9c9;
+}
+.address>span{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.address>span+a{
+	position: absolute;
+	top: 20px;
+	right: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #6ca40d;
+}
+.style-ie8-address{
+	display: inline-block;
+	position: absolute;
+	left: 200px;
+	bottom: 20px;
+	width: 94px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #6ca40d;
+	background: #ddeac7;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);	
+}
+
+.address>ul li{
+	cursor: default;
+	position: relative;
+	height: 33px;
+	margin: 15px 0;
+	line-height: 33px;
+	text-indent: 239px;
+}
+.address>ul li>span:first-child+span{
+	display: inline-block;
+	width: 630px;
+	text-indent: 0!important;
+}
+.address>ul li>span:first-child+span+span{
+	display: inline-block;
+	text-indent: 0!important;
+	text-align: center;
+	width: 90px;
+	margin-right: 90px;
+}
+.address>ul li:first-child>span:first-child+span+a{
+	color: #7c7d7a;
+}
+.address>ul li:first-child+li>span+a{
+	color: #6ca40d;
+}
+.list-on{
+	background: #ddeac7;
+	border-radius: 7px;
+	behavior: url(css/PIE.htc);	
+}
+.list-pitch{
+	position: absolute;
+	left: 200px;
+	top:9px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #000;
+	border-radius: 6px;
+	behavior: url(css/PIE.htc);	
+}
+.address>ul li{
+	position: relative;
+}
+.address-a{
+	position: absolute;
+	top: 0;
+	right: 80px;
+}
+
+/*小圆点选中样式*/
+.list-pitch-span{
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 6px;
+	height: 6px;
+	background: #000;
+	border-radius: 3px;
+	behavior: url(css/PIE.htc);
+}
+
+
+
+/*确认订单样式*/
+.cart-list{
+	position: relative;
+	overflow: hidden;
+}
+.cart-list>div:first-child{
+	font-size: 18px;
+	height: 57px;
+	font-weight: bold;
+	line-height: 60px;
+	text-indent: 18px;
+	border-bottom: 3px solid #c9c9c9;
+}
+.cart-list>div:first-child+div{
+	font-size: 14px;
+	height: 72px;
+	padding-left: 200px;
+	width: 1000px;
+	line-height: 72px;
+}
+.cart-list>div:first-child+div span{
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+}
+.cart-list>div:first-child+div span:first-child{
+	text-align: left;
+	width: 340px;
+}
+
+.cart-list ul>li>ul{
+	margin-bottom: 30px;
+	border: 1px solid #7f7f7f;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+	overflow: hidden;
+}
+.cart-list ul>li>ul li{
+	float: left;
+	width: 163px;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+}
+.cart-list ul>li>ul li:first-child{
+	width: 200px;
+	text-align: center;
+	line-height: 140px;
+}
+.cart-list ul>li>ul li img{
+	height: 116px;
+	vertical-align: middle;
+}
+.cart-list ul>li>ul li:first-child+li{
+	width: 200px;
+	height: 120px;
+	padding-right: 140px;
+	padding-top: 20px;
+	line-height: 25px;
+}
+.cart-list ul>li>ul li:first-child+li p:first-child+p{
+	color: #a2a1a1;
+	width: 180px;
+}
+.cart-list ul>li>ul li:first-child+li+li{
+	width: 30px;
+	height: 20px;
+	padding: 55px 65px;
+	line-height: 15px;
+}
+.cart-list ul>li>ul li:first-child+li+li span:first-child{
+	text-decoration:line-through;
+	color: #818181;
+}
+.price{
+	color: #e80000;
+}
+.cart-list form{
+	position: relative;
+	top: -15px;
+	padding-bottom: 110px;
+	overflow: hidden;
+}
+.total{
+	position: relative;
+	height: 150px;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+	background: #e2edcf;
+}
+.total+a{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 160px;
+	width: 93px;
+	height: 36px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	background: #6ca40d;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);
+}
+.total-left{
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	width: 300px;
+	line-height: 23px;
+	overflow: hidden;
+}
+.total-left div{
+	position: relative;
+}
+.total-left div span{
+	cursor: pointer;
+	display: inline-block;
+	width: 85px;
+	height: 18px;
+	margin-left: 15px;
+	line-height: 18px;
+	text-align: center;
+	border: 1px solid #717667;
+	border-radius: 7px;
+	behavior: url(css/PIE.htc);
+}
+.icon-sanjiao01{
+	font-size: 12px;
+	margin-left:5px;
+}
+.textarea{
+	width: 270px;
+	height: 54px;
+	border: 1px solid #717667;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);
+	overflow: hidden;
+}
+.textarea textarea{
+	width: 264px;
+	height: 48px;
+	padding: 3px 3px;
+	background: #e2edcf;
+	font-size: 12px;
+	line-height: 23px;
+}
+
+.total-right{
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	width: 215px;
+	line-height: 23px;
+	overflow: hidden;
+}
+.total-right>div{
+	float: left;
+	width: 145px;
+}
+.total-right>div:first-child>p{
+	text-align: right;
+}
+.total-right>div:first-child+div{
+	width: 70px;
+}
+.total-right>div:first-child+div p{
+	color: #c20000;
+	text-indent: 9px;
+}
+
+.icon-sanjiao01{
+	font-size: 12px;
+	color: #717667;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

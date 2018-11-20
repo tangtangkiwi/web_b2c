@@ -1,0 +1,196 @@
+@charset "utf-8";
+.content{
+	float: left;
+	position: relative;
+	width: 1008px;
+	height: 577px;
+	border-bottom: 2px solid #cccccc;
+	margin-top: 32px;
+	overflow: hidden;
+}
+.content:before{
+	position: absolute;
+	top: 22px;
+	left: 0;
+	content: "";
+	width: 1008px;
+	height: 2px;
+	background: #cccccc;
+}
+.content:after{
+	position: absolute;
+	top: 198px;
+	left: 0;
+	content: "";
+	width: 1008px;
+	height: 2px;
+	background: #cccccc;
+}
+.content>p{
+	position: relative;
+	width: 80px;
+	height: 22px;
+	font-size: 16px;
+	color: #6ca40d;
+	text-align: center;
+	border-bottom: 2px solid #6ca40d;
+}
+.content>div{
+	float: left;
+	height: 115px;
+	margin: 28px 0 9px;
+}
+.content>p+div{
+	width: 540px;
+	border-right: 1px solid #ccc;
+	line-height: 23px;
+}
+.content>p+div span{
+	color: #db4242;
+}
+.content>p+div+div{
+	position: relative;
+	float: left;
+	margin-left: 12px;
+	width: 450px;
+}
+.content>p+div+div i{
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	margin-right: 18px;
+	border-radius: 32px;
+	font-size: 32px;
+	text-align: center;
+	line-height: 64px;
+	color: #fff;
+	behavior: url(css/PIE.htc);	
+	background: #6ca40d;
+}
+.content>p+div+div p{
+	float: left;
+	width: 360px;
+	line-height: 25px;
+}
+.content>p+div+div i+p{
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 1;
+}
+.content>p+div+div span{
+	margin-left: 7px;
+	color: #6ca40d;
+}
+.content>p+div+div strong{
+	position: absolute;
+	left: 108px;
+	bottom: -15px;
+	display: block;
+	width: 67px;
+	height: 27px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 27px;
+	background: #6ca40d;
+	border-radius: 8px;
+	behavior: url(css/PIE.htc);	
+}
+.content>p+div+div strong a{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+/*商品列表*/
+.content table{
+	position: relative;
+	float: left;
+	width: 1003px;
+	height: 200px;
+	margin-top: 44px;
+	border: 1px solid #cdcdcd;
+	clear: both;
+	border-radius: 9px;
+	behavior: url(css/PIE.htc);	
+}
+.content table td,.content table th{
+	float: left;
+	display: block;
+	width: 150px;
+	text-align: center;
+}
+.content table td{
+	line-height: 90px;
+}
+table .th{
+	display: inline-block;
+	width: 1001px;
+	height: 27px;
+	background: #e9f3d2;
+	border: 1px solid #e9f3d2;
+	text-align: center;
+	line-height: 27px!important;
+	border-radius: 9px!important;
+	behavior: url(css/PIE.htc);	
+}
+.th-style{
+	display: inline-block;
+	width: 370px!important;
+	line-height: 27px!important;
+}
+.content table td img,.content table td p{
+	float: left;
+}
+.content table td p{
+	width: 196px;
+	margin: 10px 0 0 10px;
+	text-align: left;
+	line-height: 20px;
+}
+.content table td p+p{
+	color: #a2a1a1;
+}
+.content table td span{
+	display: block;
+	line-height: 1!important;
+}
+.content table td span:first-child{
+	margin-top: 30px;
+	color: #a2a1a1;
+	text-decoration: line-through;
+}
+.content table td em{
+	color: #e80000;
+}
+.content table+div{
+	float: right;
+	width: 156px;
+	height: 128px;
+}
+.content table+div strong,.content table+div em{
+	display: block;
+	text-align: center;
+	line-height: 25px;
+}
+.content table+div em{
+	font-size: 14px;
+}
+.content table+div em span{
+	color: #e80000;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
